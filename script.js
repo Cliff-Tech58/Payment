@@ -20,14 +20,14 @@ function startCheckPayment() {
         paymentStatus.textContent = "In the competition gwk 26";
         paymentStatus.style.color = "green";
       } else {
-        paymentStatus.textContent = "Not in the competition gwk 26";
+        paymentStatus.textContent = "Unpaid";
         paymentStatus.style.color = "red";
       }
       // Display the game week and points
       gameWeek.textContent = `Game Week: ${participant.gameWeek}`;
       points.textContent = `Points: ${participant.points}`;
     } else {
-      paymentStatus.textContent = "User not found";
+      paymentStatus.textContent = "Not a member";
       paymentStatus.style.color = "red";
     }
 
