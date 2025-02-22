@@ -20,7 +20,7 @@ function startCheckPayment() {
         paymentStatus.textContent = "In the competition gwk 26";
         paymentStatus.style.color = "green";
       } else {
-        paymentStatus.textContent = "Not Paid";
+        paymentStatus.textContent = "Not in the competition gwk 26";
         paymentStatus.style.color = "red";
       }
       // Display the game week and points
